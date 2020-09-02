@@ -106,3 +106,6 @@ dist
 # image extensions by screenshot
 *.png
 *.jpeg
+
+# output data
+.data/
