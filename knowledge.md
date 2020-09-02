@@ -11,6 +11,9 @@
 ## Words
 
 - headless Chrome：ChromiumをブラウザUI環境なしに実行できる。Chromium and Blinkのモダンウェブプラットフォームの機能が使える。実行方法はCLIまたはプログラム（Node等）から。
+- Chromium：OSSのWebブラウザプロジェクトの総称。（Google Chrome, Brave, Vivaldi ...)
+- Blink：HTMLレンダリングエンジン。ChromiumはWebKitから変更した。
+- WebKit：Appleが中心開発しているOSSのHTMLレンダリングエンジン。
 - puppeteer：headless Chrome操作のNodeライブラリ。
 - dev Tools Protocol：headless Chrome操作のCLIツール。
 
@@ -32,3 +35,5 @@
 - [Puppeteer](https://developers.google.com/web/tools/puppeteer)
 - [Headless Chromium](https://chromium.googlesource.com/chromium/src/+/lkgr/headless/README.md)
 - [Chrome DevTools Protocol](https://chromedevtools.github.io/devtools-protocol/)
+- [WebKit](https://webkit.org/)
+- [Blink](https://www.chromium.org/blink)
