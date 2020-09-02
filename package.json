@@ -4,10 +4,12 @@
   "description": "learn the Puppeteer",
   "main": "index.js",
   "scripts": {
+    "clean": "rm -rf ./data/*",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint .",
     "lint.fix": "eslint --fix .",
-    "screenshot": "ts-node screenshot.ts"
+    "screenshot": "ts-node screenshot.ts",
+    "pdf": "ts-node pdf.ts"
   },
   "repository": {
     "type": "git",
