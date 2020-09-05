@@ -2,11 +2,20 @@
 
 ## Goal
 
-- [ ] 何ができるか
+- [x] 何ができるか
 - [ ] 他のツールと比較してどうか
-- [ ] 周辺技術は何があるか
-- [ ] ユースケースは
+- [x] 周辺技術は何があるか
 - [x] puppeteer vs puppeteer-core
+
+### 何ができるか
+
+* Webページのスクリーンショット・PDFの生成
+* SPAのクローリング・プリレンダリングコンテンツ（SSR）の生成
+* UIテストの自動化
+* パフォーマンスのキャプチャ
+* Chrome拡張のテスト
+
+APIの構成は[Overview](https://pptr.dev/#?product=Puppeteer&version=v5.2.1&show=api-overview)を参考にする。
 
 ### puppeteer vs puppeteer-core
 
