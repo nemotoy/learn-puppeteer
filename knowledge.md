@@ -6,7 +6,16 @@
 - [ ] 他のツールと比較してどうか
 - [ ] 周辺技術は何があるか
 - [ ] ユースケースは
-- [ ] puppeteer vs puppeteer-core
+- [x] puppeteer vs puppeteer-core
+
+### puppeteer vs puppeteer-core
+
+違い。通常は *puppeteer* を利用するべき
+
+* puppeteer-coreはChromiumを自動的にダウンロードしない
+* puppeteer-coreは `PUPPETEER_*` 環境変数を無視する
+
+[puppeteer vs puppeteer-core](https://pptr.dev/#?product=Puppeteer&version=v5.2.1&show=api-puppeteer-vs-puppeteer-core)
 
 ## Words
 
