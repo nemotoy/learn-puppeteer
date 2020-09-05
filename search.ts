@@ -1,7 +1,7 @@
 import puppeteer from 'puppeteer'
 
 const main = async () => {
-  const browser = await puppeteer.launch()
+  const browser = await puppeteer.launch({ args: ['--lang=ja'] })
   const page = await browser.newPage()
   await page.setViewport({ width: 1280, height: 800 })
   // URLを開く。
@@ -12,7 +12,9 @@ const main = async () => {
   await page.click('input.nav-input')
   // ミリ秒待つ。 TODO: waitForSelectorで置き換える。
   await page.waitFor(3000)
-  await page.screenshot({ path: './data/search.png' })
+  const mil = new Date().getMilliseconds().toString()
+  const file_name = 'search' + '-' + mil + '.png'
+  await page.screenshot({ path: './data/' + file_name })
   await browser.close()
 }
 
