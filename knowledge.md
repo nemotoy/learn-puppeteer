@@ -3,7 +3,7 @@
 ## Goal
 
 - [x] 何ができるか
-- [ ] 他のツールと比較してどうか
+- [x] 他のツールと比較してどうか
 - [x] 周辺技術は何があるか
 - [x] puppeteer vs puppeteer-core
 
@@ -16,6 +16,10 @@
 - Chrome拡張のテスト
 
 APIの構成は[Overview](https://pptr.dev/#?product=Puppeteer&version=v5.2.1&show=api-overview)を参考にする。
+
+### 他のツールと比較してどうか
+
+- [npm trends](https://www.npmtrends.com/cypress-vs-nightwatch-vs-puppeteer-vs-testcafe-vs-phantomjs-vs-selenium-webdriver)
 
 ### puppeteer vs puppeteer-core
 
@@ -43,10 +47,6 @@ APIの構成は[Overview](https://pptr.dev/#?product=Puppeteer&version=v5.2.1&sh
 
 - [puppeteer](https://github.com/puppeteer/examples)
 - [puppeteer-examples](https://github.com/checkly/puppeteer-examples)
-
-## Others
-
-- [npm trends](https://www.npmtrends.com/cypress-vs-nightwatch-vs-puppeteer-vs-testcafe)
 
 ## Reference
 
