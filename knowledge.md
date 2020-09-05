@@ -9,11 +9,11 @@
 
 ### 何ができるか
 
-* Webページのスクリーンショット・PDFの生成
-* SPAのクローリング・プリレンダリングコンテンツ（SSR）の生成
-* UIテストの自動化
-* パフォーマンスのキャプチャ
-* Chrome拡張のテスト
+- Webページのスクリーンショット・PDFの生成
+- SPAのクローリング・プリレンダリングコンテンツ（SSR）の生成
+- UIテストの自動化
+- パフォーマンスのキャプチャ
+- Chrome拡張のテスト
 
 APIの構成は[Overview](https://pptr.dev/#?product=Puppeteer&version=v5.2.1&show=api-overview)を参考にする。
 
@@ -21,8 +21,8 @@ APIの構成は[Overview](https://pptr.dev/#?product=Puppeteer&version=v5.2.1&sh
 
 違い。通常は *puppeteer* を利用するべき
 
-* puppeteer-coreはChromiumを自動的にダウンロードしない
-* puppeteer-coreは `PUPPETEER_*` 環境変数を無視する
+- puppeteer-coreはChromiumを自動的にダウンロードしない
+- puppeteer-coreは `PUPPETEER_*` 環境変数を無視する
 
 [puppeteer vs puppeteer-core](https://pptr.dev/#?product=Puppeteer&version=v5.2.1&show=api-puppeteer-vs-puppeteer-core)
 
@@ -55,3 +55,4 @@ APIの構成は[Overview](https://pptr.dev/#?product=Puppeteer&version=v5.2.1&sh
 - [Chrome DevTools Protocol](https://chromedevtools.github.io/devtools-protocol/)
 - [WebKit](https://webkit.org/)
 - [Blink](https://www.chromium.org/blink)
+- [awesome-puppeteer](https://github.com/transitive-bullshit/awesome-puppeteer)（puppeteer情報をキュレート）
