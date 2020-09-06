@@ -10,7 +10,8 @@
     "lint.fix": "eslint --fix .",
     "screenshot": "ts-node screenshot.ts",
     "pdf": "ts-node pdf.ts",
-    "search": "ts-node search.ts"
+    "search": "ts-node search.ts",
+    "gh.trend": "ts-node search_gh_trend.ts"
   },
   "repository": {
     "type": "git",
