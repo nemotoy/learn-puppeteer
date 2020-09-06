@@ -15,10 +15,10 @@ const main = async () => {
   await page.goto(url) // TODO: get repository URL
   await page.waitFor(3000)
   const mil = new Date().getMilliseconds().toString()
-  const file_name =
-    'search' + '-' + lang + '-' + date_range + '-' + mil + '.png'
+  const file_name = generateFileName(lang, date_range, mil) + '.png'
   await page.screenshot({
     path: './data/gh/' + file_name,
+    type: 'png',
     fullPage: true,
   })
   await browser.close()
@@ -28,4 +28,8 @@ void main()
 
 const generateTrendURL = (lang: string, date_range: string) => {
   return trend_url + lang + '?' + since_param + date_range
+}
+
+const generateFileName = (...items: string[]) => {
+  return items.join('-')
 }
